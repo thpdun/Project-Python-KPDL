@@ -46,7 +46,3 @@ Kết luận: Thuật toán GMM cho thấy hiệu suất phân cụm vượt tr�
 •	Học máy: Scikit-learn
 •	Kiểm thử nhanh: LazyPredict
 •	Trực quan hóa: Matplotlib, Seaborn
-5. Tác giả
-•	Trần Hoàng Phương Dung
-•	Lớp: K57 - Kinh Tế Số
-•	GVHD: TS. Hoàng Hữu Trung
