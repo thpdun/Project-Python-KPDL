@@ -3,7 +3,6 @@ DỰ ÁN KHAI PHÁ DỮ LIỆU: PHÂN TÍCH & DỰ ĐOÁN KẾT QUẢ THI BẰNG
 Dự án này thực hiện quy trình khai phá dữ liệu toàn diện trên bộ dữ liệu “Driver's License Test Scores Data” (500 quan sát, 17 thuộc tính) với hai mục tiêu chính:
 1.	Phân tích các yếu tố ảnh hưởng đến khả năng vượt qua kỳ thi (Qualified).
 2.	Xây dựng và đánh giá các mô hình học máy để dự đoán khả năng đỗ/trượt của học viên.
-Xem báo cáo đầy đủ (190 trang) tại đây: DoAn_KhaiPhaDuLieu.pdf
 1. Quy trình Tiền xử lý Dữ liệu (Data Preprocessing)
 Một quy trình tiền xử lý chi tiết đã được thực hiện để đảm bảo chất lượng dữ liệu đầu vào cho mô hình.
 1.1. Làm sạch Dữ liệu (Data Cleaning)
@@ -25,7 +24,7 @@ o	MinMaxScaler: Được sử dụng cho bộ dữ liệu đã làm sạch outli
 •	Sử dụng thư viện LazyPredict để nhanh chóng huấn luyện và so sánh hiệu suất của hơn 20 thuật toán phân loại trên cả hai bộ dữ liệu.
 •	Phát hiện quan trọng: Việc loại bỏ outliers đã cải thiện đáng kể độ chính xác. Ví dụ, mô hình KNeighborsClassifier tăng Accuracy từ 77% (trước) lên 84% (sau).
 2.2. Phân tích Chuyên sâu 3 Mô hình Tốt nhất
-Dựa trên kết quả từ LazyPredict, 3 mô hình hàng đầu đã được chọn để phân tích sâu15151515:
+Dựa trên kết quả từ LazyPredict, 3 mô hình hàng đầu đã được chọn để phân tích sâu:
 1.	RandomForestClassifier
 2.	ExtraTreesClassifier
 3.	AdaBoostClassifier
@@ -51,4 +50,3 @@ Kết luận: Thuật toán GMM cho thấy hiệu suất phân cụm vượt tr�
 •	Trần Hoàng Phương Dung
 •	Lớp: K57 - Kinh Tế Số
 •	GVHD: TS. Hoàng Hữu Trung
-
